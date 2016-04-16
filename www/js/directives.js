@@ -1,14 +1,6 @@
+angular.module('app.directives', [])
 
-var app = angular.module('app.directives', [])
+.directive('blankDirective', [function(){
 
-.directive('productTitle', [function(){
-
-	return{
-		restrict:'E',
-		tenplateUrl:'templates/product-title.html'
-		
-   
-}
-
-}])
+}]);
 
